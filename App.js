@@ -95,9 +95,6 @@ export default class App extends react.Component {
   render(){
     return(
     <View style={styles.container}>
-
-      <Text style={styles.title}>Tic Tac Toe</Text>
-      <View style={{padding: 50}}/>
       
       <View style={{flexDirection: "row"}}>
       <TouchableOpacity onPress={() => this.onTilePress(0,0)} style={[styles.tile, {borderLeftWidth : 0 , borderTopWidth : 0}]}>
